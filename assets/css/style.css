@@ -1,0 +1,75 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Monoton', cursive;
+    color: bisque;
+    font-size: 80px;
+    background-color: rgba(81,81, 81, .7);
+}
+
+body {
+    text-align: center;
+    background-image:url("../images/crystalbackground.jpg");
+    background-attachment: fixed;
+    background-position: right; 
+    background-size: cover;
+    }
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 5px;
+}
+.col-sm-6{
+    background-color: rgba(81,81, 81, .7);
+    color: bisque; 
+    font-family: 'Raleway Dots', cursive;
+
+}
+img{
+    width: 100px;
+    background-color: rgba(81,81, 81, .7);
+    border-radius: 5px;
+
+}
+#randomnumber {
+    background-color: rgba(81,81, 81, .7);
+    color: bisque; 
+    font-family: 'Raleway Dots', cursive;
+    font-size: 80px;
+    margin: auto;
+    padding: 10px;
+    border: 2px white;
+    border-radius: 5px;
+    width: 150px;
+}
+#yournumber {
+    background-color: rgba(81,81, 81, .7);
+    color: bisque; 
+    font-family: 'Raleway Dots', cursive;
+    font-size: 80px;
+    margin: auto;
+    padding: 10px;
+    border: 2px white;
+    border-radius: 5px;
+    width: 150px;
+}
+#win-or-lose{
+    background-color: rgba(81,81, 81, .7);
+    color: bisque; 
+    font-family: 'Raleway Dots', cursive;
+    font-size: 80px;
+}
+#button { 
+    background-color:  rgba(81,81, 81, .7);
+    font-family: 'Raleway Dots', cursive;
+    color: bisque; 
+    width: 100px;
+    height: 40px;
+
+}

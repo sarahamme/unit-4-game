@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway+Dots" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>Cyrstal Collector</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            Score to Match:
+            <div id="randomnumber">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            Your Score:
+            <div id="yournumber">
+                0
+            </div>
+        </div>
+       
+    </div>
+    
+</div>
+<br>
+<div id="win-or-lose"></div>
+  <br>
+    <div class="container">
+        <div class="row" >
+          <div class="col-md-3" id="crystal-one">
+                <img src="assets/images/crystal1.jpg " alt="">
+          </div>
+          <div class="col-md-3" id="crystal-two" >
+                <img src="assets/images/crystal2.jpg " alt="">
+          </div>
+          <div class="col-md-3" id="crystal-three">
+                <img src="assets/images/crystal3.jpg " alt="">
+          </div>
+          <div class="col-md-3" id="crystal-four">
+                <img src="assets/images/crystal4.jpg " alt="">
+          </div>
+        </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                Wins: <span id="win"></span>
+                </div>
+                <div class="col-sm-6" >
+                    Loses: <span id="loses"></span>
+                </div>
+        
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <input id="button" type="button" value="Play Again!" >
+</body>
+<script src="assets/javascript/game.js">
+
+</script>
+</html>
