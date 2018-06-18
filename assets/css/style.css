@@ -37,6 +37,12 @@ img{
     border-radius: 5px;
 
 }
+#instructions{
+    background-color: rgba(81,81, 81, .9);
+    color: bisque; 
+    font-family: 'Raleway Dots', cursive;
+    font-size: 15px;
+}
 #randomnumber {
     background-color: rgba(81,81, 81, .7);
     color: bisque; 
