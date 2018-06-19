@@ -64,9 +64,12 @@ function checkScore() {
   } else if ( num > computerGenerateNumber) {
     $("#win-or-lose").append("You Lost!");
     loses++;
-    $("#loses").text(loses);
+    $("#loses").text(loses); 
   };
 };
+
+
+
 
 $("#button").on("click", function () {
   num = 0;
@@ -77,8 +80,8 @@ $("#button").on("click", function () {
   crystalFourValue = 1 + Math.floor(Math.random() * 15);
   $("#randomnumber").text(computerGenerateNumber);
   $("#yournumber").text(num);
+  $("#win-or-lose").empty();
 
 });
-
 
 });
